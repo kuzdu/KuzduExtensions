@@ -22,7 +22,7 @@ pod 'KuzduExtensions'
 
 ## Author
 
-kuzdu, michael.rothkegel@invers.com
+kuzdu
 
 ## License
 
