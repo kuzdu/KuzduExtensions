@@ -38,10 +38,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kuzdu' => 'rothkegel.michael@gmail.com' }
-  s.source           = { :git => 'https://github.com/kuzdu/KuzduExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kuzdu/KuzduExtensions.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.3'
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
+#  s.ios.deployment_target = '9.3'
+  s.platform     = :ios, "9.3"
+  s.swift_version = "4.0"
 
   s.source_files = '*.swift'
 
