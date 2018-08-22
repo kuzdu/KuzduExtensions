@@ -1,0 +1,16 @@
+PODS:
+  - KuzduExtensions (0.1.0)
+
+DEPENDENCIES:
+  - KuzduExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  KuzduExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KuzduExtensions: 355002373e23c0a3edc2b51728ecdd4f7783609b
+
+PODFILE CHECKSUM: c0a5210edeefde82d69a7f4b14e946126ce21ae4
+
+COCOAPODS: 1.4.0

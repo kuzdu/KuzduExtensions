@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KuzduExtensions_Example' do
+  pod 'KuzduExtensions', :path => '../'
+
+  target 'KuzduExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

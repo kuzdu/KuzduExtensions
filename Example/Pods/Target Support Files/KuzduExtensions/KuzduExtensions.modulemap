@@ -1,0 +1,6 @@
+framework module KuzduExtensions {
+  umbrella header "KuzduExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
